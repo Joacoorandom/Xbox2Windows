@@ -1,3 +1,17 @@
+<p align="center"><img src="https://raw.githubusercontent.com/Joacoorandom/Joacoorandom/main/assets/projects/Xbox2Windows.svg" width="100%" alt="Xbox2Windows — fork de R0Y00/Xbox2Windows" /></p>
+
+## Sobre esta copia
+
+Investigación de recompilación estática, traducción CPU/GPU y análisis de ejecutables Xbox. El alcance y los resultados medidos están documentados más abajo.
+
+Fork mantenido en **Joacoorandom/Xbox2Windows**. Proyecto original: **[R0Y00/Xbox2Windows](https://github.com/R0Y00/Xbox2Windows)**.
+
+[Comparar con el original](https://github.com/R0Y00/Xbox2Windows/compare/main...Joacoorandom:Xbox2Windows:main) · [Ver ramas de esta copia](https://github.com/Joacoorandom/Xbox2Windows/branches) · [Mi perfil](https://github.com/Joacoorandom)
+
+La documentación original, su licencia y los créditos se conservan a continuación.
+
+---
+
 # Xbox2Windows
 
 Xbox2Windows investigates **static recompilation of Xbox Series X|S (Scarlett) software for x64 Windows**, using Grand Theft Auto VI as its case study. The CPU experiments translate source-built x64 functions from PE machine code through C++ to new Windows DLLs, including a direct call and cross-DLL imports by name and ordinal. The shader experiment translates selected gfx1013 pixel shaders through HLSL to desktop DXIL. Other experiments test the Windows runtime, render recovered texture levels and read script state data. Title CPU code execution, full-game startup and frame rate remain unverified.
@@ -90,3 +104,4 @@ The installation metadata inspected for this case study lists a Scarlett executa
 ## License
 
 Original project code and documentation use the [MIT License](LICENSE). Third-party games, assets, SDKs and trademarks belong to their respective owners. Xbox2Windows is an independent community project, unaffiliated with Rockstar Games, Take-Two, Microsoft or AMD.
+
